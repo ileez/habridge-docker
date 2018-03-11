@@ -10,7 +10,7 @@ set -e
 echo "+---------------------------------------------+"
 echo "|              Habridge On Docker             |"
 echo "+---------------------------------------------+"
-echo "|       Images:{habridge-docker:5.1.0}        |"
+echo "|       Images:{habridge-docker:5.2.0}        |"
 echo "+---------------------------------------------+"
 echo "|     Intro: https://github.com/ileez         |"
 echo "+---------------------------------------------+"
