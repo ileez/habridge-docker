@@ -2,7 +2,7 @@
 FROM nimmis/alpine-java
 MAINTAINER ilee
 
-ENV habridge_version=5.1.0 \
+ENV habridge_version=5.2.0 \
     habridge_DIR=/usr/local/habridge
 
 RUN set -ex && \
@@ -18,5 +18,5 @@ RUN set -ex && \
     rm -rf /var/cache/apk/* ~/.cache ${habridge_DIR}/${habridge_latest_filename} ${habridge_DIR}/ha-bridge-${habridge_version}.jar
 
 ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh 
+RUN chmod u+x /entrypoint.sh 
 ENTRYPOINT ["/entrypoint.sh"]
