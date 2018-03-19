@@ -2,7 +2,7 @@
 FROM nimmis/alpine-java
 MAINTAINER ilee
 
-ENV habridge_version=5.2.0 \
+ENV habridge_version=5.2.1 \
     habridge_DIR=/usr/local/habridge
 
 RUN set -ex && \
